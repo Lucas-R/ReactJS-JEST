@@ -1,8 +1,8 @@
 import { render } from '@testing-library/react';    
-import App from './App';
+import { Router } from './Router';
 
 describe('App', () => {
     it('Should render correctly', () => {
-        expect(render(<App />)).toBeTruthy();
+        expect(render(<Router />)).toBeTruthy();
     });
 });
