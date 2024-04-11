@@ -12,5 +12,10 @@ export const GlobalStyle = createGlobalStyle`
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-style: normal;
+        height: 100%;
+    }
+
+    a{
+        text-decoration: none;
     }
 `
