@@ -3,11 +3,12 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { Home } from "./pages/Home";
+import { user } from "./@types/user";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Home user={user}/>,
   },
 ]);
 
